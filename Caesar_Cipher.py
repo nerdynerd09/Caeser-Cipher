@@ -66,6 +66,8 @@ def from_Caeser():
             converted.append(a[a.index(j)-5])
     for k in converted:
         print(k,end='')
-
-Intro()
+try:
+    Intro()
+except (KeyboardInterrupt):
+    print("\nCrtl+c detected.\nExiting.....")
 
