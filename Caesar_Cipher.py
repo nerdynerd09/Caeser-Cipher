@@ -49,7 +49,8 @@ def to_Caeser():
             converted.append(j_lower.lower())
     for k in converted:
         print(k,end='')
-
+    print()
+    
 def from_Caeser():
     change_from_caeser = input("Words to be converted into Caeser Cipher: ")
     for i in change_from_caeser:
@@ -66,6 +67,7 @@ def from_Caeser():
             converted.append(a[a.index(j)-5])
     for k in converted:
         print(k,end='')
+    print()
 try:
     Intro()
 except (KeyboardInterrupt):
